@@ -319,6 +319,18 @@ a{
 .plan .list__item{
     margin-bottom: 2rem;
 }
+
+/*popular badge*/
+.card__header {
+    position:relative
+}
+.popular{
+    display: inline-block;
+    width:40px;
+    position:absolute;
+    top:-6px;
+    right:5%;
+}
 @media screen and (min-width:1024px){
     .plan__name{
         font-size: 1.4rem;
@@ -333,3 +345,5 @@ a{
         font-size: 1.7rem;
     }
 }
+
+
