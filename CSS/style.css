@@ -564,7 +564,7 @@ a{
 .block__heading{
     margin-top: 0;
 }
-.block__header{
+.block__header{grid--1x2
     text-align:center
 }
 .block--dark{
@@ -722,4 +722,21 @@ a{
     .block-domain_prices{
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     }
+}
+
+/*Featur Block*/
+.feature__heading{
+    font-size: 1rem 0;
+}
+
+.feature{
+   gap:4rem 2rem; 
+   margin:12rem 0;
+}
+
+.feature:first-of-type{
+  margin-top: 6rem;  
+}
+.feature__image{
+   width:100%;
 }
