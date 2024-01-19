@@ -143,7 +143,7 @@ a{
 }
 
 .list--tick{
-    list-style-image: url(../icons/tick.svg);
+    list-style-image: url(/tick.2ebf72f3.svg);
     padding-left: 3rem;
     color: var(--color-headings);
 }
@@ -848,3 +848,5 @@ a{
 .callout-signup {
   transform: translateY(5rem);
 }
+
+/*# sourceMappingURL=/style.0e565bc9.css.map */
